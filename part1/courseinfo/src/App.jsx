@@ -3,6 +3,7 @@ import Content from './Comps/Content'
 import Total from './Comps/Total'
 import './App.css'
 
+
 const App = () => {
   const course = 'Half Stack application development'
 
@@ -22,7 +23,6 @@ const App = () => {
   ]
 
 
-
   return (
     <div>
       <Header course={course} />
@@ -32,6 +32,9 @@ const App = () => {
       
 
       <Total total={parts[0].exercises + parts[1].exercises + parts[2].exercises} />
+
+      
+
     </div>
   )
 }
