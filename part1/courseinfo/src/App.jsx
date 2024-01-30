@@ -1,6 +1,6 @@
-import Header from './Comps/Header'
-import Content from './Comps/Content'
-import Total from './Comps/Total'
+import Header from './Components/Header'
+import Content from './Components/Content'
+import Total from './Components/Total'
 import './App.css'
 
 
