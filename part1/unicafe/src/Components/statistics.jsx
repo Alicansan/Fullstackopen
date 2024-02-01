@@ -15,7 +15,7 @@ const Statistics = ({ good, neutral, bad, total }) => {
         <tbody>
           <tr>
             <td>Average: </td>
-            <td>{calcAvrg()} %</td>
+            <td>{calcAvrg()}</td>
           </tr>
           <tr>
             <td>Positive Feedback percentage: </td>
