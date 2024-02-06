@@ -18,7 +18,7 @@ const App = ()=>{
   }
   const mostVoted = Math.max(...votePoint)
   const index = votePoint.indexOf(mostVoted)
-  
+  //
   return (
     
     <div>
