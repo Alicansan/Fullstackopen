@@ -3,6 +3,7 @@ import './App.css'
 import Course from './components/Course'
 
 const App = () => {
+    console.log('App')
   const course = {
     id: 1,
     name: 'Half Stack application development',
@@ -25,7 +26,13 @@ const App = () => {
     ]
   }
 
-  return 
+
+  return (
+    <div>
+      <Course course={course} />
+    </div>
+  )
+
 }
 
 export default App
